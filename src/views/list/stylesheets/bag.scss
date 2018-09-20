@@ -1,0 +1,70 @@
+.commodity_list{
+    width: auto;
+    margin: 0 20px;
+    .list_address{
+        padding: 1.45% 0;
+        .address{
+            height: 16px;
+            li{
+                float: left;
+                color: #9a9a9a;
+                vertical-align: top;
+                font-size: 12px;
+                margin: 0 10px 0 0;
+                //display: inline-block;
+            }
+        }
+    }
+    .bag_banner{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .bag_direction{
+        margin: 2.9% 0 4.2%;
+        position: relative;
+        overflow: hidden;
+        h1{
+            margin: 0 0 15px;
+            font-size: 40px;
+            line-height: 48px;
+            text-transform: uppercase;
+            font-weight: 100;
+        }
+    }
+    .list_content{
+        width: 100%;
+        .list_img_box{
+            width: 33.33%;
+            box-sizing: border-box;
+            margin-bottom: 2.9%;
+            padding:0 1.2%;
+            float: left;
+        }
+        .list_imgandp{
+            position: relative;
+            width: 100%;
+            //margin-bottom: 2.9%;
+            
+            //box-sizing: border-box;
+            .list_img{
+                display: block;
+                position: relative;
+                z-index: 5;
+                img{
+                    box-sizing: border-box;
+                    border: 1px solid #e5e5e5;
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            .list_p{
+                padding-top: 20px;
+                display: block;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,260 @@
+//登录或创建账户页面
+.login_or_register{
+    width: 620px;
+   // height: 800px;
+    //background: paleturquoise;
+    margin: 0 auto;
+    .login_or_register_title{
+       // background:pink;
+     
+        h3{
+            font-weight: 600;
+            font-size: 24px;
+            color: #636363;
+            padding-bottom: 3px !important;
+            margin-bottom: 15px !important;
+        }
+    }
+    .login_or_register_main{
+        border: 1px solid #cdcdcd;
+        input{
+            outline: none;
+        }
+        height: 422px;
+        // background: darkgreen;
+        .login_or_register_main_left{
+            position: relative;
+            width: 50% !important;
+            border: none;
+            height: 422px;
+            padding: 60px 40px 60px 30px;
+            //background: skyblue;
+            box-sizing: border-box;
+            float: left;
+            .dior_member{
+                box-sizing: border-box;
+                font-size: 14px;
+                color: #636363;
+                font-weight: 400;
+                padding: 0 0 10px;
+                position: relative;
+                span{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    box-sizing: border-box;
+                    a{
+                        color: #636363;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .login_main{
+                .li_username{
+                    height: 55px;
+                    .username{
+                        margin-bottom: 6px;
+                        background: #ebebeb;
+                        border: 1px solid #ebebeb;
+                        width: 100%;
+                        display: block;
+                        float: left;
+                        font-size: 11px;
+                        line-height: 28px;
+                        color: #636363;
+                        height: 30px;
+                        padding: 0 8px;
+                        box-sizing: border-box;
+                    }
+                }
+                .auth_code{
+                    height: 55px;
+                    p{
+                        float: right;
+                        margin-left: 5px;
+                        width: 65px !important;
+                        height: 32px !important;
+                        display: block;
+                        box-sizing: border-box;
+                        background: palegoldenrod;
+                    }
+                    .code{
+                        width: 150px !important;
+                        margin-bottom: 6px;
+                        background: #ebebeb;
+                        display: block;
+                        float: left;
+                        font-size: 11px;
+                        line-height: 28px;
+                        color: #636363;
+                        height: 30px;
+                        padding: 0 8px;
+                        border: 1px solid #ebebeb;
+                    }
+                }
+                .code_message{
+                    height: 55px;
+                    .message{
+                        width: 150px !important;
+                        margin-bottom: 6px;
+                        background: #ebebeb;
+                        display: block;
+                        float: left;
+                        font-size: 11px;
+                        line-height: 28px;
+                        color: #636363;
+                        height: 30px;
+                        padding: 0 8px;
+                        border: 1px solid #ebebeb;
+                    }
+                    .send{
+                        float: right;;
+                        width: 65px;
+                        border: none;
+                        height: 32px;
+                        background: #000;
+                        color: #fff;
+                    }
+                }
+                .law_box{
+                    height: 37px;
+                }
+                .btn_box{
+                    height: 50px;
+                }
+                .choose_law{
+                    .square{
+                        margin-top: 3px;
+                        float: left;
+                        color: #636363;
+                        margin-right: 10px;
+                        .empty{
+                            display: inline-block;
+                            color: black;
+                            height: 15px !important;
+                            width: 15px !important;
+                            background: url(../../index/imgs/sprite-icon.png) no-repeat -280px -150px;
+                        }
+                        .choose_law_btn{
+                            box-sizing: border-box;
+                            display: none !important;
+                        }
+                        
+                    }
+                    p{
+                        //float: left;
+                        display: inline-block;
+                        font-size: 12px !important;
+                        color: #636363;
+                        a{
+                            text-decoration: underline;
+                            color: #636363;
+                        }
+                    }
+                }
+                .login_button{
+                    padding: 7px 15px !important;
+                    border: 0;
+                    width: 100%;
+                    height: 30px;
+                    box-sizing: border-box;
+                    display: inline-block;
+                    line-height: 14px;
+                    color: white;
+                    background: #000 !important;
+                    font-family: "Century-Gothic",Arial,sans-serif;
+                }
+                //第三方登陆账户
+                .another_account{
+                    span{
+                        font-size: 13px;
+                        color: #a0a0a0;
+                        float: left;
+                    }
+                    .social-login {
+                        max-width: 100%;
+                        width: 100px;
+                        float: left;
+                        margin-left: 15px !important;
+                    }
+                    .social-login-item{
+                        width: 20px;
+                        height: 20px;
+                        display: inline-block;
+                        margin-right: 10%;
+                    }
+                    /*#login-form .quick-landing{ margin-left: 100px;}*/
+                    .social-login-item a, .quick-landing .social-login-item a{
+                        font-size: 0;
+                        width: 20px;
+                        height: 20px;
+                        padding: 0;
+                    }
+                    .social-login-item a img, .quick-landing .social-login-item a img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                    //     .social-login-item.weChat{
+                    //     /*background-size: 20px;*/
+                    // }
+                    //     .social-login-item.alipay{
+                    //     /*background-size: 20px;*/
+                    // }
+    
+                }
+            }
+        }
+        //右侧
+        .login_or_register_main_right{
+            &:before{
+                content: '';
+                width: 1px;
+                height: 145px;
+                background: #d4d4d4;
+                position: absolute;
+                left: 0;
+                top: 76px;
+            }
+            width: 50% !important;
+            border: none;
+            position: relative;
+            padding: 60px 50px;
+            box-sizing: border-box;
+            // background: darkorange;
+            height: 250px;
+            //
+            float: left;
+            .register_content{
+                
+                box-sizing: border-box;
+                h5{
+                    font-size: 14px;
+                    color: #636363;
+                    font-weight: 400;
+                    padding: 0 0 10px;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #636363;
+                }
+            }
+            .set_account{
+                .gtm_register_btn{
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 30px;
+                    margin-top: 50px;
+                    width: 100%;
+                    background: #fff !important;
+                    border: 1px solid #000;
+                    color: #000 !important;
+                    height: 30px;
+                    box-sizing: border-box;
+                }
+                
+            }
+        }
+    }
+}

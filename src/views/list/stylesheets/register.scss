@@ -1,0 +1,261 @@
+.account_create{
+    border: 1px solid #d9d9d9 !important;
+    padding: 30px !important;
+    width: 720px;
+    box-sizing: border-box;
+    margin: 30px auto !important;
+    height: 488px;
+    .create_page_title{
+        h3{
+            font-size: 24px !important;
+            font-weight: 600 !important;
+            color: #636363;
+            margin-bottom: 15px !important;
+        }
+    }
+    .create_explain{
+        font-size: 12px !important;
+        color: #A0A0A0;
+        margin-bottom: 10px;
+    }
+    .create_content{
+        color: #A0A0A0;
+        input,select{
+            outline: none;
+            
+        }
+        p{
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            width: 95px;
+            font-size: 11px;
+            
+        }
+        .create_phone{
+            margin-right: 30px;
+            display: inline-block;
+            box-sizing: border-box;
+            .create_phone_txt{
+                height: 55px;
+                display: inline-block;
+                input{
+                    width: 205px;
+                    background: #ebebeb;
+                    border: 1px solid #ebebeb;
+                    font-size: 11px;
+                    line-height: 28px;
+                    height: 30px;
+                    padding: 0 8px;
+                    box-sizing: border-box;
+                    color: #A0A0A0;
+                }
+            }
+        }
+        .create_emile{
+            display: inline-block;
+            .create_emile_txt{
+                height: 55px;
+                display: inline-block;
+                input{
+                    width: 205px;
+                    background: #ebebeb;
+                    border: 1px solid #ebebeb;
+                    font-size: 11px;
+                    line-height: 28px;
+                    height: 30px;
+                    padding: 0 8px;
+                    box-sizing: border-box;
+                    color: #A0A0A0;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        .create_code{
+            .create_code_txt{
+                height: 55px;
+                display: inline-block;
+                .code_txt{
+                    width:100px;
+                    background: #ebebeb;
+                    border: 1px solid #ebebeb;
+                    display: inline-block;
+                    font-size: 11px;
+                    line-height: 28px;
+                    height: 30px;
+                    padding: 0 8px;
+                    color: #A0A0A0;
+                    box-sizing: border-box;
+                }
+                // .code_img{
+
+                // }
+            }
+        }
+        .create_message{
+            .create_message_txt{
+                height: 55px;
+                display: inline-block;
+                .message_txt{
+                    width:160px;
+                    background: #ebebeb;
+                    border: 1px solid #ebebeb;
+                    display: inline-block;
+                    font-size: 11px;
+                    line-height: 28px;
+                    height: 30px;
+                    padding: 0 8px;
+                    color: #A0A0A0;
+                    box-sizing: border-box;
+                }
+                .message_send{
+                    background-color: #000;
+                    color: #fff;
+                    border: 0 none;
+                    width: 45px;
+                    padding-left: 0;
+                   // display: inline-block;
+                    font-size: 12px;
+                    line-height: 30px;
+                    float: right;
+                }
+            }
+        }
+        .create_sex{
+            // p{
+                 display: inline-block;
+            // }
+           // float: left;
+            .custom_select{
+               margin-bottom: 25px;
+                display: inline-block;
+                position: relative;
+                width: 205px;
+                background: #ebebeb;
+                .grender_text{
+                    text-indent: 10px;
+                    font-size: 12px !important;
+                    display: inline-block;
+                    line-height: 30px !important;
+                    color: #000;
+                    box-sizing: border-box;
+                }
+                #gender{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    width: 205px;
+                    font-size: 14px;
+                    margin-top: 0 !important;
+                    margin-bottom: 7px;
+                    padding-left: 5px;
+                    z-index: 9;
+                    font-family: "CenturyGothic-Regular", CenturyGothic, AppleGothic, helvetica, sans-serif;
+                    color: #636363;
+                    line-height: 1.5;
+                    border: 0;
+                    background: transparent none repeat scroll 0 center;
+                }
+            }
+        }
+        .create_pwd{
+                //float: left;
+            .create_pwd_txt{
+                height: 55px;
+                display: inline-block;
+                .pwd_txt{
+                    width: 205px;
+                    background: #ebebeb;
+                    border: 1px solid #ebebeb;
+                    font-size: 11px;
+                    line-height: 28px;
+                    height: 30px;
+                    padding: 0 8px;
+                    box-sizing: border-box;
+                    color: #A0A0A0;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        .create_date{
+            //display: inline-block;
+            float: right;
+            p{
+                float: left;
+            }
+            .select-input-box{
+                height: 50px;
+                display: inline-block;
+              
+                .select-year,.select-date,.select-day{
+                    width: 56px;
+                    margin-right: 4px;
+                    background: #ebebeb;
+                    float: left;
+                    line-height: 30px !important;
+                    height: 30px !important;
+                    
+                }
+                label{
+                    float: left;
+                    font-size: 12px !important;
+                    width: 20px !important;
+                    line-height: 32px;
+                }
+                #year,#month,#day{
+                    border: 0;
+                    background: #ebebeb;
+                }
+            }
+        }
+        .choose_law,.notice_box{
+            .square{
+                margin-top: 3px;
+                float: left;
+                color: #636363;
+                margin-right: 10px;
+                .empty{
+                    display: inline-block;
+                    color: black;
+                    height: 15px !important;
+                    width: 15px !important;
+                    background: url(../../index/imgs/sprite-icon.png) no-repeat -280px -150px;
+                }
+                .choose_law_btn{
+                    box-sizing: border-box;
+                    display: none !important;
+                }
+                
+            }
+            p{
+                //float: left;
+                width: auto;
+                display: inline-block;
+                font-size: 12px !important;
+                color: #636363;
+                a{
+                    text-decoration: underline;
+                    color: #636363;
+                }
+            }
+        }
+        .notice_box{
+            .choose_notice{
+                position: relative;
+                .register_btn{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    margin-left: 5px;
+                    display: inline-block;
+                    background: #000 !important;
+                    padding: 7px 15px !important;
+                    color: #FFFFFF;
+                    font-size: 12px !important;
+                    border: 0;
+                } 
+            }
+        }
+    }
+   
+}
